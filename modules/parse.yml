@@ -1,0 +1,16 @@
+name: parse
+description: Parse package for Nuxt
+repo: cierrateam/nuxt-parse
+npm: nuxt-parse
+icon: ''
+github: https://github.com/cierrateam/nuxt-parse
+website: https://github.com/cierrateam/nuxt-parse
+learn_more: ''
+category: Security
+type: 3rd-party
+maintainers:
+  - name: cierrateam
+    github: cierrateam
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

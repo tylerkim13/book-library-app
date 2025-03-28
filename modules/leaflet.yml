@@ -1,0 +1,18 @@
+name: leaflet
+description: Leaflet integration with Nuxt
+repo: nuxt-modules/leaflet
+npm: '@nuxtjs/leaflet'
+icon: leaflet.png
+github: https://github.com/nuxt-modules/leaflet
+website: https://leaflet.nuxtjs.org/
+learn_more: https://leaflet.nuxtjs.org/
+category: Libraries
+type: community
+maintainers:
+  - name: Gugustinette
+    github: Gugustinette
+    twitter: gugustinette
+    bluesky: gugustinette.com
+compatibility:
+  nuxt: ^3.0.0
+  requires: {}

@@ -1,0 +1,18 @@
+name: typed-router
+description: Provide autocompletion for pages route names and params
+repo: victorgarciaesgi/nuxt-typed-router
+npm: nuxt-typed-router
+icon: typed-router.png
+github: https://github.com/victorgarciaesgi/nuxt-typed-router
+website: https://nuxt-typed-router.vercel.app
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Victor Garcia
+    github: victorgarciaesgi
+    twitter: desnoth_dev
+    bluesky: vicflix.dev
+compatibility:
+  nuxt: ^2.0.0 || >=3.0.0
+  requires: {}

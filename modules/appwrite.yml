@@ -1,0 +1,17 @@
+name: appwrite
+description: Appwrite module for Nuxt
+repo: Hrdtr/nuxt-appwrite
+npm: nuxt-appwrite
+icon: appwrite.png
+github: https://github.com/Hrdtr/nuxt-appwrite
+website: https://github.com/Hrdtr/nuxt-appwrite
+learn_more: ''
+category: Database
+type: 3rd-party
+maintainers:
+  - name: Herdi Tr.
+    github: Hrdtr
+    twitter: hrdtr_
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

@@ -1,0 +1,18 @@
+name: bulma-slim
+description: >-
+  Nuxt module to automatically make a slim Bulma build of used features with
+  Purgecss
+repo: mustardamus/nuxt-bulma-slim
+npm: nuxt-bulma-slim
+icon: bulma.png
+github: https://github.com/mustardamus/nuxt-bulma-slim
+website: https://github.com/mustardamus/nuxt-bulma-slim
+learn_more: https://bulma.io/
+category: UI
+type: 3rd-party
+maintainers:
+  - name: Sebastian Senf
+    github: mustardamus
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

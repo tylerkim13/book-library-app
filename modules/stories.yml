@@ -1,0 +1,16 @@
+name: stories
+description: Nuxt stories module -- Painless storybooking for Nuxt
+repo: richardeschloss/nuxt-stories
+npm: nuxt-stories
+icon: ''
+github: https://github.com/richardeschloss/nuxt-stories
+website: https://github.com/richardeschloss/nuxt-stories
+learn_more: ''
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Richard Schloss
+    github: richardeschloss
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

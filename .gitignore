@@ -1,0 +1,17 @@
+node_modules
+*.log*
+dist
+.DS_Store
+.vercel
+.nuxt
+sw.js
+.env
+.vscode
+cache
+.vercel_build_output
+.output
+package-lock.json
+modules.json
+.idea
+.pnp.*
+.history

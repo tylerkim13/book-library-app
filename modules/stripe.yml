@@ -1,0 +1,19 @@
+name: stripe
+description: >-
+  Import the StripeJS client script to accept payments, send payouts, and manage
+  your businesses online.
+repo: WilliamDASILVA/nuxt-stripe-module
+npm: nuxt-stripe-module
+icon: stripe.png
+github: https://github.com/WilliamDASILVA/nuxt-stripe-module
+website: https://github.com/WilliamDASILVA/nuxt-stripe-module
+learn_more: https://stripe.com/
+category: Payment
+type: 3rd-party
+maintainers:
+  - name: William DA SILVA
+    github: WilliamDASILVA
+    twitter: willia_am
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

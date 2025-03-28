@@ -1,0 +1,48 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm i -g --force corepack && corepack enable
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: "pnpm"
+
+      - run: pnpm install
+
+      - name: Lint
+        # these run in the autofix workflow on pull requests
+        if: github.event_name == 'push'
+        run: pnpm lint
+
+      - name: Test types
+        run: pnpm tsc --noEmit
+
+      - name: Sync
+        run: pnpm sync
+        # these run in the autofix workflow on pull requests
+        if: github.event_name == 'push'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Sync Status
+        # these run in the autofix workflow on pull requests
+        if: github.event_name == 'push'
+        run: git diff --exit-code
+
+      - name: Build
+        run: pnpm build

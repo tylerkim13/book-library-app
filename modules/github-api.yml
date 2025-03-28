@@ -1,0 +1,17 @@
+name: github-api
+description: Nuxt module for GitHub v4 API
+repo: lindsaykwardell/nuxt-github-api
+npm: nuxt-github-api
+icon: github.svg
+github: https://github.com/lindsaykwardell/nuxt-github-api
+website: https://github.com/lindsaykwardell/nuxt-github-api
+learn_more: ''
+category: Request
+type: 3rd-party
+maintainers:
+  - name: Lindsay Wardell
+    github: lindsaykwardell
+    bluesky: lindsaykwardell.com
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

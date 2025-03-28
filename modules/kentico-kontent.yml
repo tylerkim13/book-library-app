@@ -1,0 +1,16 @@
+name: kentico-kontent
+description: Add Kentico Kontent super power to your nuxt app
+repo: Domitnator/kentico-kontent-nuxt-module
+npm: kentico-kontent-nuxt-module
+icon: ''
+github: https://github.com/Domitnator/kentico-kontent-nuxt-module
+website: https://github.com/Domitnator/kentico-kontent-nuxt-module
+learn_more: https://kontent.ai
+category: CMS
+type: 3rd-party
+maintainers:
+  - name: Alfred Brockötter
+    github: Domitnator
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

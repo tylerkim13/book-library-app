@@ -1,0 +1,18 @@
+name: eslint
+description: Project-aware, easy-to-use, extensible and future-proof ESLint integration.
+repo: nuxt/eslint
+npm: '@nuxt/eslint'
+icon: nuxt.svg
+github: https://github.com/nuxt/eslint
+website: https://eslint.nuxt.com
+learn_more: https://eslint.nuxt.com/packages/module
+category: Devtools
+type: official
+maintainers:
+  - name: Anthony Fu
+    github: antfu
+    twitter: antfu7
+    bluesky: antfu.me
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

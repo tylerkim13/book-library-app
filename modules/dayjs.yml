@@ -1,0 +1,17 @@
+name: dayjs
+description: Day.js module for Nuxt
+repo: fumeapp/dayjs
+npm: dayjs-nuxt
+icon: day-js.png
+github: https://github.com/fumeapp/dayjs
+website: https://github.com/fumeapp/dayjs
+learn_more: https://day.js.org/
+category: Libraries
+type: 3rd-party
+maintainers:
+  - name: kevin olson
+    github: acidjazz
+    twitter: appfume
+compatibility:
+  nuxt: '>=3.0.0'
+  requires: {}

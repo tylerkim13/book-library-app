@@ -1,0 +1,18 @@
+name: webpackdashboard
+description: >-
+  Webpack Dashboard module for Nuxt. A CLI dashboard for your webpack dev
+  server.
+repo: paulgv/nuxt-webpackdashboard
+npm: nuxt-webpackdashboard
+icon: webpack.png
+github: https://github.com/paulgv/nuxt-webpackdashboard
+website: https://github.com/paulgv/nuxt-webpackdashboard
+learn_more: https://github.com/FormidableLabs/webpack-dashboard
+category: Devtools
+type: 3rd-party
+maintainers:
+  - name: Paul Gascou-Vaillancourt
+    github: paulgv
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

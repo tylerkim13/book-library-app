@@ -1,0 +1,16 @@
+name: fullpage
+description: Nuxt module for fullpage-vue plugin
+repo: vaso2/fullpage-nuxt
+npm: fullpage-nuxt
+icon: ''
+github: https://github.com/vaso2/fullpage-nuxt
+website: https://github.com/vaso2/fullpage-nuxt
+learn_more: ''
+category: CSS
+type: 3rd-party
+maintainers:
+  - name: Vasyl Iatsenko
+    github: vaso2
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}

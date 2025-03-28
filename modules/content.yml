@@ -1,0 +1,26 @@
+name: content
+description: The file-based CMS with support for Markdown, YAML, JSON.
+repo: nuxt/content#main
+npm: '@nuxt/content'
+icon: nuxt.svg
+github: https://github.com/nuxt/content
+website: https://content.nuxt.com
+learn_more: ''
+category: CMS
+type: official
+maintainers:
+  - name: Farnabaz
+    github: farnabaz
+    twitter: a_birang
+    bluesky: farnabaz.dev
+  - name: Baptiste Leproux
+    github: larbish
+    twitter: _larbish
+    bluesky: larbish.bsky.social
+  - name: Sébastien Chopin
+    github: Atinux
+    twitter: Atinux
+    bluesky: atinux.com
+compatibility:
+  nuxt: ^2.0.0 || >=3.0.0
+  requires: {}

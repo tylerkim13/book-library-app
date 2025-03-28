@@ -1,0 +1,18 @@
+name: custom-elements
+description: Publish your Components as a vue-custom-element standalone build.
+repo: GrabarzUndPartner/nuxt-custom-elements
+npm: nuxt-custom-elements
+icon: custom-elements.png
+github: https://github.com/GrabarzUndPartner/nuxt-custom-elements
+website: https://grabarzundpartner.github.io/nuxt-custom-elements/
+learn_more: https://github.com/karol-f/vue-custom-element
+category: Extensions
+type: 3rd-party
+maintainers:
+  - name: Thorn Walli
+    github: ThornWalli
+  - name: GrabarzUndPartner
+    github: GrabarzUndPartner
+compatibility:
+  nuxt: ^2.0.0
+  requires: {}
